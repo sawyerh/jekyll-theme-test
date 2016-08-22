@@ -1,7 +1,7 @@
 # coding: utf-8
 
 Gem::Specification.new do |spec|
-  spec.name          = "siteleaf"
+  spec.name          = "siteleaf-base"
   spec.version       = "0.1.0"
   spec.authors       = ["Siteleaf"]
   spec.email         = ["support@siteleaf.com"]
