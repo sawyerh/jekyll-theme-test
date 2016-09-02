@@ -1,6 +1,6 @@
 <article class="article">
   {% if include.article.image %}
-    <img src="{{ include.article.image }}" alt="{{ include.article.title }}" class="article__banner" />
+    {% img '{{ include.article.image }}' magick:resize:'100x100' alt:'{{ include.article.title }}' class:'article__banner' %}
   {% endif %}
 
   {{ include.article.collection }}
